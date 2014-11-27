@@ -1,0 +1,46 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TouristAppV3.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Model="using:TouristAppV3.Model"
+    xmlns:ViewModel="using:TouristAppV3.ViewModel"
+    x:Class="TouristAppV3.View.OrderPageView"
+    mc:Ignorable="d">
+
+
+    <Grid x:Name="OrderPage1">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/RoskildeTouristAppBG2.png"/>
+        </Grid.Background>
+        <Grid.DataContext>
+            <ViewModel:OrderViewModel/>
+        </Grid.DataContext>
+        <TextBox x:Name="firstName" HorizontalAlignment="Left" Margin="108,216,0,0" TextWrapping="Wrap" Text="{Binding NewOrderModel.FirstName, Mode=TwoWay}" VerticalAlignment="Top" Height="29" Width="241"/>
+        <TextBox x:Name="lastName" HorizontalAlignment="Left" Margin="108,272,0,0" TextWrapping="Wrap" Text="{Binding NewOrderModel.LastName, Mode=TwoWay}" VerticalAlignment="Top" Width="241"/>
+        <TimePicker x:Name="timeComboBox" HorizontalAlignment="Left" Margin="108,369,0,0" VerticalAlignment="Top" Time="{Binding NewOrderModel.Time, Mode=TwoWay}" Visibility="{Binding ArrivalTimeVisibility, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="106,123,0,0" TextWrapping="Wrap" Text="Order Type:" VerticalAlignment="Top" FontSize="36"/>
+        <DatePicker x:Name="DatePicker1" HorizontalAlignment="Left" Margin="108,456,0,0" VerticalAlignment="Top" Date="{Binding NewOrderModel.From.Date, Mode=OneWay}" MinYear="{Binding NewOrderModel.From.Date, Mode=OneWay}" Visibility="{Binding ToFromVisibility, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="489,431,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" FontSize="16" Visibility="{Binding ToFromVisibility, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="108,431,0,0" TextWrapping="Wrap" Text="From" VerticalAlignment="Top" FontSize="16" Visibility="{Binding ToFromVisibility, Mode=TwoWay}"/>
+        <DatePicker HorizontalAlignment="Left" Margin="489,456,0,0" VerticalAlignment="Top" Date="{Binding NewOrderModel.To.Date, Mode=OneWay}" Visibility="{Binding ToFromVisibility, Mode=TwoWay}"/>
+        <TextBlock x:Name="timeTextBox" HorizontalAlignment="Left" Margin="106,345,0,0" TextWrapping="Wrap" Text="What time will you come" VerticalAlignment="Top" FontSize="16" Visibility="{Binding ArrivalTimeVisibility, Mode=TwoWay}"/>
+        <Button x:ConnectionId='1' HorizontalAlignment="Left" Margin="105,571,0,0" VerticalAlignment="Top" Width="168" Command="{Binding AddNewOrderModel, Mode=TwoWay}" Visibility="{Binding ArrivalTimeVisibility, Mode=TwoWay}"                        Content="Place order"/>
+        <Rectangle Fill="#FF535353" HorizontalAlignment="Left" Height="204" Margin="869,155,0,0" Stroke="Black" VerticalAlignment="Top" Width="436"/>
+        <TextBlock HorizontalAlignment="Left" Margin="901,183,0,0" TextWrapping="Wrap" Text="If you have any problems with ordering feel free to ask our customer service on number:" VerticalAlignment="Top" FontSize="20" Width="376"/>
+        <TextBlock HorizontalAlignment="Left" Margin="973,285,0,0" TextWrapping="Wrap" Text="000 000 000" VerticalAlignment="Top" FontSize="48"/>
+        <ComboBox HorizontalAlignment="Left" Margin="489,216,0,0" VerticalAlignment="Top" Width="280" ItemsSource="{Binding CategoriesModels, Mode=TwoWay}" SelectedItem="{Binding SelectedCategory, Mode=TwoWay}"/>
+        <ComboBox HorizontalAlignment="Left" Margin="489,269,0,0" VerticalAlignment="Top" Width="280" ItemsSource="{Binding SelectedCategory.CategoryItems}" SelectedItem="{Binding SelectedCategoryItemModel, Mode=TwoWay}"/>
+        <Button x:ConnectionId='2' Content="Back" HorizontalAlignment="Left" Margin="286,571,0,0" VerticalAlignment="Top"                      Visibility="{Binding ArrivalTimeVisibility, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="297,123,0,0" TextWrapping="Wrap" Text="{Binding OrderType, Mode=TwoWay}" VerticalAlignment="Top" FontSize="36" Height="43" Width="414"/>
+        <TextBlock HorizontalAlignment="Left" Margin="409,216,0,0" TextWrapping="Wrap" Text="Category" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="436,269,0,0" TextWrapping="Wrap" Text="Place" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,216,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,272,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="164,371,0,0" TextWrapping="Wrap" Text="Service not available" VerticalAlignment="Top" Height="85" Width="547" Style="{StaticResource HeaderTextBlockStyle}" Visibility="{Binding ServiceNotAvailable, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="126,626,0,0" TextWrapping="Wrap" Text="Order placed successfully" VerticalAlignment="Top" Visibility="{Binding OrderPlacedSuccessfully, Mode=TwoWay}"/>
+
+    </Grid>
+</Page>
+

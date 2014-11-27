@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MONICA</Machine>
+    <WindowsUser>Mònica</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e13e1269-28c0-40e7-bbc1-30804cae6a96</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>127E66D6EC020359C1BDFCA213C8BD660CD87F613D11B7418C1DBE2E6D816112</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e13e1269-28c0-40e7-bbc1-30804cae6a96_1.0.0.0_neutral__phh9y543f33n4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e13e1269-28c0-40e7-bbc1-30804cae6a96_phh9y543f33n4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e13e1269-28c0-40e7-bbc1-30804cae6a96</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mònica</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-27T09:30:58.020</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\TouristAppV3.exe">
+      <PackagePath>TouristAppV3.exe</PackagePath>
+      <Modified>2014-11-27T09:57:33.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\packages\Moq.3.1.416.3\lib\Moq.dll">
+      <PackagePath>Moq.dll</PackagePath>
+      <Modified>2014-11-27T09:04:05.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\BellaNapoli.jpg">
+      <PackagePath>Assets\BellaNapoli.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Bjergtrolden.jpg">
+      <PackagePath>Assets\Bjergtrolden.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Bodega.jpg">
+      <PackagePath>Assets\Bodega.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\ButcherShop.jpg">
+      <PackagePath>Assets\ButcherShop.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\CafeGulland.jpg">
+      <PackagePath>Assets\CafeGulland.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Cathedral.jpg">
+      <PackagePath>Assets\Cathedral.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Comwell.jpg">
+      <PackagePath>Assets\Comwell.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\ContemporaryArt.jpg">
+      <PackagePath>Assets\ContemporaryArt.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\GustavWieds.jpg">
+      <PackagePath>Assets\GustavWieds.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\INSPMad.jpg">
+      <PackagePath>Assets\INSPMad.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\LaurentiusChurch.jpg">
+      <PackagePath>Assets\LaurentiusChurch.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\LoSpecchio.jpg">
+      <PackagePath>Assets\LoSpecchio.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Mulligans.jpg">
+      <PackagePath>Assets\Mulligans.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\MuseumOfTools.jpg">
+      <PackagePath>Assets\MuseumOfTools.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\OstedKro.jpg">
+      <PackagePath>Assets\OstedKro.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\OstensPerle.jpg">
+      <PackagePath>Assets\OstensPerle.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Prindsen.jpg">
+      <PackagePath>Assets\Prindsen.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Raadhuskaelderen.jpg">
+      <PackagePath>Assets\Raadhuskaelderen.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\RacingCentre.jpg">
+      <PackagePath>Assets\RacingCentre.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\RingDiscGolf.jpg">
+      <PackagePath>Assets\RingDiscGolf.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\RoskildeMiniTown.jpg">
+      <PackagePath>Assets\RoskildeMiniTown.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\RoskildeMuseum.jpg">
+      <PackagePath>Assets\RoskildeMuseum.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Sagafjord.jpg">
+      <PackagePath>Assets\Sagafjord.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Scandic.jpg">
+      <PackagePath>Assets\Scandic.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\SkatePark.jpg">
+      <PackagePath>Assets\SkatePark.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Sofryd.jpg">
+      <PackagePath>Assets\Sofryd.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:00.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\StHans.jpg">
+      <PackagePath>Assets\StHans.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:01.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Svogerslev Kro.jpg">
+      <PackagePath>Assets\Svogerslev Kro.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:01.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Upstairs.jpg">
+      <PackagePath>Assets\Upstairs.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:01.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\VikingShip.jpg">
+      <PackagePath>Assets\VikingShip.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:01.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Wittrup.jpg">
+      <PackagePath>Assets\Wittrup.jpg</PackagePath>
+      <Modified>2014-11-13T10:01:01.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+      <Modified>2014-11-13T10:01:01.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T10:01:00.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\RoskildeTouristAppBG2.png">
+      <PackagePath>Assets\RoskildeTouristAppBG2.png</PackagePath>
+      <Modified>2014-11-13T10:01:00.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\RoskildeTouristAppBGg.png">
+      <PackagePath>Assets\RoskildeTouristAppBGg.png</PackagePath>
+      <Modified>2014-11-13T10:01:00.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T10:01:00.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T10:01:00.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T10:01:01.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\CafeVivaldi.gif">
+      <PackagePath>Assets\CafeVivaldi.gif</PackagePath>
+      <Modified>2014-11-13T10:01:00.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Gimle.gif">
+      <PackagePath>Assets\Gimle.gif</PackagePath>
+      <Modified>2014-11-13T10:01:00.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Paradis.gif">
+      <PackagePath>Assets\Paradis.gif</PackagePath>
+      <Modified>2014-11-13T10:01:00.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\RecreationalResort.gif">
+      <PackagePath>Assets\RecreationalResort.gif</PackagePath>
+      <Modified>2014-11-13T10:01:00.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\SwimmingPool.gif">
+      <PackagePath>Assets\SwimmingPool.gif</PackagePath>
+      <Modified>2014-11-13T10:01:01.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\VibyKro.gif">
+      <PackagePath>Assets\VibyKro.gif</PackagePath>
+      <Modified>2014-11-13T10:01:01.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\Vigen.gif">
+      <PackagePath>Assets\Vigen.gif</PackagePath>
+      <Modified>2014-11-13T10:01:01.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\xml\Categories.xml">
+      <PackagePath>Assets\xml\Categories.xml</PackagePath>
+      <Modified>2014-11-13T10:01:01.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\xml\CategoryItems.xml">
+      <PackagePath>Assets\xml\CategoryItems.xml</PackagePath>
+      <Modified>2014-11-13T10:01:01.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\xml\Comments.xml">
+      <PackagePath>Assets\xml\Comments.xml</PackagePath>
+      <Modified>2014-11-13T10:01:01.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\xml\Orders.xml">
+      <PackagePath>Assets\xml\Orders.xml</PackagePath>
+      <Modified>2014-11-13T10:01:01.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\Assets\xml\Users.xml">
+      <PackagePath>Assets\xml\Users.xml</PackagePath>
+      <Modified>2014-11-27T09:20:21.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-27T09:08:00.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\View\CommentView.xbf">
+      <PackagePath>View\CommentView.xbf</PackagePath>
+      <Modified>2014-11-27T09:08:00.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\View\LogInView.xbf">
+      <PackagePath>View\LogInView.xbf</PackagePath>
+      <Modified>2014-11-27T09:57:33.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+      <Modified>2014-11-27T09:57:33.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\View\OrderPageView.xbf">
+      <PackagePath>View\OrderPageView.xbf</PackagePath>
+      <Modified>2014-11-27T09:08:00.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
+      <PackagePath>TouristAppV3.xr.xml</PackagePath>
+      <Modified>2014-11-27T09:42:02.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Documents\Visual Studio 2013\Projects\TouristAppV3-master\TouristAppV3\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-27T09:57:33.852</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

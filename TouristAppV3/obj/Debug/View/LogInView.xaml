@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="TouristAppV3.View.LogInView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TouristAppV3.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:TouristAppV3.ViewModel"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.DataContext>
+            <viewModel:LogInViewModel/>
+        </Grid.DataContext>
+        <TextBox x:Name="UserNameTextBox" HorizontalAlignment="Left" Margin="524,258,0,0" TextWrapping="Wrap" Text="{Binding NewUserModel.UserName, Mode=TwoWay}" VerticalAlignment="Top" Width="361"/>
+        <Button Content="Register" HorizontalAlignment="Left" Margin="800,425,0,0" VerticalAlignment="Top" Command="{Binding AddNewUserCommand, Mode=TwoWay}"/>
+        <Button Content="Log In" HorizontalAlignment="Left" Margin="521,425,0,0" VerticalAlignment="Top" Command="{Binding LogInCommand, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="524,245,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="524,313,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="524,326,0,0" VerticalAlignment="Top" Width="361" Password="{Binding NewUserModel.Password, Mode=TwoWay}"/>
+        <Button x:ConnectionId='1' Content="Go back" HorizontalAlignment="Left" Margin="48,47,0,0" VerticalAlignment="Top"                     />
+
+
+    </Grid>
+</Page>
+

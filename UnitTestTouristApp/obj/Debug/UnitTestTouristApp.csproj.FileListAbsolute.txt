@@ -1,0 +1,5 @@
+C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\TouristApp\TouristAppV4rep\TouristAppV3-master\UnitTestTouristApp\bin\Debug\UnitTestTouristApp.dll
+C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\TouristApp\TouristAppV4rep\TouristAppV3-master\UnitTestTouristApp\bin\Debug\UnitTestTouristApp.pdb
+C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\TouristApp\TouristAppV4rep\TouristAppV3-master\UnitTestTouristApp\obj\Debug\UnitTestTouristApp.csprojResolveAssemblyReference.cache
+C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\TouristApp\TouristAppV4rep\TouristAppV3-master\UnitTestTouristApp\obj\Debug\UnitTestTouristApp.dll
+C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\TouristApp\TouristAppV4rep\TouristAppV3-master\UnitTestTouristApp\obj\Debug\UnitTestTouristApp.pdb
