@@ -177,6 +177,11 @@ namespace TouristAppV3.ViewModel
             set { _categoryItems = value; }
         }
 
+        public override string ToString()
+        {
+            return "Testing to string";
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         [NotifyPropertyChangedInvocator]

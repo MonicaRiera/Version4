@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KIDDI</Machine>
+    <WindowsUser>Kristinn</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d9b3caab-287b-49f4-8337-585918e1895d</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>F9EA9D3E4295ED3CFA6E63B0A527921B1CD34EF662852231CEA684EF4EF0E287</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d9b3caab-287b-49f4-8337-585918e1895d_1.0.0.0_neutral__dq4ndxc79x9xg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d9b3caab-287b-49f4-8337-585918e1895d_dq4ndxc79x9xg!vstest.executionengine.App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d9b3caab-287b-49f4-8337-585918e1895d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kristinn</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-27T11:08:34.846</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\bin\Debug\UnitTestTouristAppV4.dll">
+      <PackagePath>UnitTestTouristAppV4.dll</PackagePath>
+      <Modified>2014-11-27T11:09:53.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\bin\Debug\UnitTestTouristAppV4.pdb">
+      <PackagePath>UnitTestTouristAppV4.pdb</PackagePath>
+      <Modified>2014-11-27T11:09:53.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\bin\Debug\TouristAppV3.pdb">
+      <PackagePath>TouristAppV3.pdb</PackagePath>
+      <Modified>2014-11-27T11:09:51.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll</PackagePath>
+      <Modified>2013-10-05T09:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
+      <Modified>2013-10-05T09:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\packages\Moq.3.1.416.3\lib\Moq.dll">
+      <PackagePath>Moq.dll</PackagePath>
+      <Modified>2014-11-27T10:17:46.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\bin\Debug\TouristAppV3.exe">
+      <PackagePath>TouristAppV3.exe</PackagePath>
+      <Modified>2014-11-27T11:09:51.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Core.dll</PackagePath>
+      <Modified>2013-10-05T09:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll</PackagePath>
+      <Modified>2013-10-05T09:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</PackagePath>
+      <Modified>2013-10-05T09:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll</PackagePath>
+      <Modified>2013-10-05T09:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Utilities.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Utilities.dll</PackagePath>
+      <Modified>2014-05-01T08:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.exe">
+      <PackagePath>vstest.executionengine.appcontainer.exe</PackagePath>
+      <Modified>2014-05-01T08:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.x86.exe">
+      <PackagePath>vstest.executionengine.appcontainer.x86.exe</PackagePath>
+      <Modified>2014-05-01T08:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\Images\UnitTestLogo.scale-100.png">
+      <PackagePath>Images\UnitTestLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-27T10:17:45.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\Images\UnitTestSmallLogo.scale-100.png">
+      <PackagePath>Images\UnitTestSmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-27T10:17:45.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\Images\UnitTestSplashScreen.scale-100.png">
+      <PackagePath>Images\UnitTestSplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-27T10:17:45.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\Images\UnitTestStoreLogo.scale-100.png">
+      <PackagePath>Images\UnitTestStoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-27T10:17:45.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+      <Modified>2014-11-27T10:17:44.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2014-11-27T10:17:43.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\RoskildeTouristAppBG2.png">
+      <PackagePath>Assets\RoskildeTouristAppBG2.png</PackagePath>
+      <Modified>2014-11-27T10:17:44.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\RoskildeTouristAppBGg.png">
+      <PackagePath>Assets\RoskildeTouristAppBGg.png</PackagePath>
+      <Modified>2014-11-27T10:17:44.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2014-11-27T10:17:44.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2014-11-27T10:17:44.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2014-11-27T10:17:44.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\BellaNapoli.jpg">
+      <PackagePath>Assets\BellaNapoli.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Bjergtrolden.jpg">
+      <PackagePath>Assets\Bjergtrolden.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Bodega.jpg">
+      <PackagePath>Assets\Bodega.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\ButcherShop.jpg">
+      <PackagePath>Assets\ButcherShop.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\CafeGulland.jpg">
+      <PackagePath>Assets\CafeGulland.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Cathedral.jpg">
+      <PackagePath>Assets\Cathedral.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Comwell.jpg">
+      <PackagePath>Assets\Comwell.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\ContemporaryArt.jpg">
+      <PackagePath>Assets\ContemporaryArt.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\GustavWieds.jpg">
+      <PackagePath>Assets\GustavWieds.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\INSPMad.jpg">
+      <PackagePath>Assets\INSPMad.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\LaurentiusChurch.jpg">
+      <PackagePath>Assets\LaurentiusChurch.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\LoSpecchio.jpg">
+      <PackagePath>Assets\LoSpecchio.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Mulligans.jpg">
+      <PackagePath>Assets\Mulligans.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\MuseumOfTools.jpg">
+      <PackagePath>Assets\MuseumOfTools.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\OstedKro.jpg">
+      <PackagePath>Assets\OstedKro.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\OstensPerle.jpg">
+      <PackagePath>Assets\OstensPerle.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Prindsen.jpg">
+      <PackagePath>Assets\Prindsen.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:43.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Raadhuskaelderen.jpg">
+      <PackagePath>Assets\Raadhuskaelderen.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\RacingCentre.jpg">
+      <PackagePath>Assets\RacingCentre.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\RingDiscGolf.jpg">
+      <PackagePath>Assets\RingDiscGolf.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\RoskildeMiniTown.jpg">
+      <PackagePath>Assets\RoskildeMiniTown.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\RoskildeMuseum.jpg">
+      <PackagePath>Assets\RoskildeMuseum.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Sagafjord.jpg">
+      <PackagePath>Assets\Sagafjord.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Scandic.jpg">
+      <PackagePath>Assets\Scandic.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\SkatePark.jpg">
+      <PackagePath>Assets\SkatePark.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Sofryd.jpg">
+      <PackagePath>Assets\Sofryd.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\StHans.jpg">
+      <PackagePath>Assets\StHans.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Svogerslev Kro.jpg">
+      <PackagePath>Assets\Svogerslev Kro.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Upstairs.jpg">
+      <PackagePath>Assets\Upstairs.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\VikingShip.jpg">
+      <PackagePath>Assets\VikingShip.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Wittrup.jpg">
+      <PackagePath>Assets\Wittrup.jpg</PackagePath>
+      <Modified>2014-11-27T10:17:44.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\CafeVivaldi.gif">
+      <PackagePath>Assets\CafeVivaldi.gif</PackagePath>
+      <Modified>2014-11-27T10:17:43.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Gimle.gif">
+      <PackagePath>Assets\Gimle.gif</PackagePath>
+      <Modified>2014-11-27T10:17:43.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Paradis.gif">
+      <PackagePath>Assets\Paradis.gif</PackagePath>
+      <Modified>2014-11-27T10:17:43.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\RecreationalResort.gif">
+      <PackagePath>Assets\RecreationalResort.gif</PackagePath>
+      <Modified>2014-11-27T10:17:44.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\SwimmingPool.gif">
+      <PackagePath>Assets\SwimmingPool.gif</PackagePath>
+      <Modified>2014-11-27T10:17:44.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\VibyKro.gif">
+      <PackagePath>Assets\VibyKro.gif</PackagePath>
+      <Modified>2014-11-27T10:17:44.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\Vigen.gif">
+      <PackagePath>Assets\Vigen.gif</PackagePath>
+      <Modified>2014-11-27T10:17:44.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\xml\Categories.xml">
+      <PackagePath>Assets\xml\Categories.xml</PackagePath>
+      <Modified>2014-11-27T10:17:44.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\xml\CategoryItems.xml">
+      <PackagePath>Assets\xml\CategoryItems.xml</PackagePath>
+      <Modified>2014-11-27T10:17:44.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\xml\Comments.xml">
+      <PackagePath>Assets\xml\Comments.xml</PackagePath>
+      <Modified>2014-11-27T10:17:44.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\xml\Orders.xml">
+      <PackagePath>Assets\xml\Orders.xml</PackagePath>
+      <Modified>2014-11-27T10:17:44.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\Assets\xml\Users.xml">
+      <PackagePath>Assets\xml\Users.xml</PackagePath>
+      <Modified>2014-11-27T10:17:44.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-27T11:08:30.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\bin\Debug\View\CommentView.xbf">
+      <PackagePath>View\CommentView.xbf</PackagePath>
+      <Modified>2014-11-27T11:08:30.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\bin\Debug\View\LogInView.xbf">
+      <PackagePath>View\LogInView.xbf</PackagePath>
+      <Modified>2014-11-27T11:08:30.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+      <Modified>2014-11-27T11:08:30.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\bin\Debug\View\OrderPageView.xbf">
+      <PackagePath>View\OrderPageView.xbf</PackagePath>
+      <Modified>2014-11-27T11:08:30.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
+      <PackagePath>TouristAppV3.xr.xml</PackagePath>
+      <Modified>2014-11-27T10:17:45.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristinn\Documents\Visual Studio 2013\Projects\NewRepository\UnitTestTouristAppV4\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-27T11:08:34.692</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
